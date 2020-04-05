@@ -1,0 +1,20 @@
+{
+  "name": "npm-curso",
+  "version": "1.0.0",
+  "description": "Curso de npm feito na udemy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lênin Müller",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
