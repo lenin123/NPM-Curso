@@ -1,18 +1,28 @@
 {
-  "name": "npm-curso",
-  "version": "1.0.0",
+  "name": "npm-curso-app",
+  "version": "1.4.2",
   "description": "Curso de npm feito na udemy",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index-dev.js",
+    "prod": "node index-prod.js",
+    "test": "node index.test.js",
+    "prepublishOnly": "npm run test"
   },
+  "keywords": [
+    "curso npm",
+    "curso basico npm",
+    "basico npm"
+  ],
   "author": "Lênin Müller",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "ngx-bootstrap": "^5.5.0",
+    "toastr": "^2.1.4"
   },
   "devDependencies": {
     "debug": "^4.1.1"
